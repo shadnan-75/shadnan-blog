@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogosphere | Home</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <style>
+        .section-padding {
+            padding: 60px 0;
+        }
+        .featured-post-img {
+            height: 200px;
+            object-fit: cover;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light shadow-sm">
+            <div class="container">
+                <a class="navbar-brand fw-bold fs-3" href="#">SAHA IT</a> <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="About.html">About</a> </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="blog.html">Blog</a> </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#contact-section">Contact</a> </li>
+                        <li class="nav-item ms-lg-3">
+                            <a href="login.html"><button class="btn btn-primary" type="button">Sign Up/Login</button></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="section-padding bg-primary text-white text-center">
+            <div class="container">
+                <h1 class="display-4 fw-bold mb-4">Welcome to SAHA IT!</h1>
+                <p class="lead mb-5">Dive into the latest topics and popular posts.</p>
+                
+                <h2 class="text-uppercase mb-4">🔥 Featured Post</h2>
+                <div class="card bg-white text-dark shadow-lg">
+                    <div class="row g-0">
+                        <div class="col-md-5">
+                            <img src="https://via.placeholder.com/600x400?text=Featured+Image" class="img-fluid rounded-start featured-post-img w-100" alt="Featured Post Image">
+                        </div>
+                        <div class="col-md-7">
+                            <div class="card-body text-start">
+                                <h3 class="card-title">How to Master Bootstrap in a Weekend</h3>
+                                <p class="card-text">A deep dive into the utility-first world of Bootstrap 5 and how you can use it to rapidly build stunning web interfaces.</p>
+                                <a href="single-post.html" class="btn btn-outline-primary">Read More</a> </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding">
+            <div class="container">
+                <h2 class="text-center mb-5">Latest Articles</h2>
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="./IMAGE/TECH.jpg" class="card-img-top" alt="Tech Post Image">
+                            <div class="card-body">
+                                <h5 class="card-title">The Future of AI in Web Development</h5>
+                                <p class="card-text">Explore how machine learning is changing the way we code and design websites...</p>
+                                <a href="single-post.html" class="btn btn-link p-0">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="./IMAGE/LIFE.jpg" class="card-img-top" alt="Life Post Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Five Simple Habits for a Productive Morning</h5>
+                                <p class="card-text">Start your day right with these easy-to-adopt practices for mental clarity...</p>
+                                <a href="single-post.html" class="btn btn-link p-0">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 shadow-sm">
+                            <img src="./IMAGE/last.jpg" class="card-img-top" alt="Education Post Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Learning to Code: Which Language to Pick First</h5>
+                                <p class="card-text">A beginner's guide to choosing your first programming language for a solid foundation...</p>
+                                <a href="single-post.html" class="btn btn-link p-0">Read More &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="text-center mt-5">
+                    <a href="blog.html" class="btn btn-lg btn-outline-secondary">View All Posts &rarr;</a>
+                </div>
+            </div>
+        </section>
+        
+        <section class="section-padding bg-light" id="about-section">
+            <div class="container">
+                <div class="row align-items-center">
+                    <div class="col-lg-6">
+                        <h2 class="display-5 mb-4">Meet the Blogger</h2>
+                        <p class="lead">Hello! I'm **Alex**, a full-stack developer and an avid learner. My mission is to **demystify complex technical topics** and share insights from my journey in web development and personal growth.</p>
+                        <p>I started Blogosphere in 2023 with the purpose of creating a welcoming space for both beginners and experienced professionals to exchange knowledge. I'm passionate about clean code, community building, and finding the perfect cup of coffee. </p>
+                    </div>
+                    <div class="col-lg-6 text-center mt-4 mt-lg-0">
+                        <img src="https://via.placeholder.com/300x300?text=Your+Photo" class="img-fluid rounded-circle shadow-lg" alt="Blogger's Photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="section-padding" id="contact-section">
+            <div class="container">
+                <h2 class="text-center mb-5">Get In Touch!</h2>
+                <div class="row justify-content-center">
+                    <div class="col-lg-8">
+                        <form>
+                            <div class="mb-3">
+                                <label for="contactName" class="form-label">Name</label>
+                                <input type="text" class="form-control" id="contactName" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactEmail" class="form-label">Email address</label>
+                                <input type="email" class="form-control" id="contactEmail" required>
+                            </div>
+                            <div class="mb-3">
+                                <label for="contactMessage" class="form-label">Message</label>
+                                <textarea class="form-control" id="contactMessage" rows="5" required></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary w-100">Send Message</button>
+                        </form>
+                        
+                        <div class="text-center mt-4">
+                            <p class="lead mb-2">Connect with me:</p>
+                            <a href="#" class="text-secondary mx-2 fs-4" aria-label="Twitter"><i class="bi bi-twitter"></i>🐦</a> 
+                            <a href="#" class="text-secondary mx-2 fs-4" aria-label="LinkedIn"><i class="bi bi-linkedin"></i>🔗</a> 
+                            <a href="#" class="text-secondary mx-2 fs-4" aria-label="GitHub"><i class="bi bi-github"></i>💻</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-dark text-white py-3">
+        <div class="container text-center">
+            <p class="mb-0">&copy; 2025 SAHA IT. All rights reserved.</p>
+        </div>
+   
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
